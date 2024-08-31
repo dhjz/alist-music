@@ -6,6 +6,6 @@
 - 页面下方会出现`音乐加强`, 点击就可以了
 
 # 效果图
-- [alt 页面效果图1](https://cdn.jsdelivr.net/gh/dhjz/alist-music@master/pic1.png)
-- [alt 页面效果图2](https://cdn.jsdelivr.net/gh/dhjz/alist-music@master/pic2.png)
-- [alt 页面效果图3](https://cdn.jsdelivr.net/gh/dhjz/alist-music@master/pic3.png)
+- ![alt 页面效果图1](https://cdn.jsdelivr.net/gh/dhjz/alist-music@master/pic1.png)
+- ![alt 页面效果图2](https://cdn.jsdelivr.net/gh/dhjz/alist-music@master/pic2.png)
+- ![alt 页面效果图3](https://cdn.jsdelivr.net/gh/dhjz/alist-music@master/pic3.png)
