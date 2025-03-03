@@ -1,3 +1,7 @@
+# 自定义播放器
+- 另外做了一款播放器, 支持自动获取多级目录的alist仓库音乐, 支持歌词显示, 支持控制上下曲, 支持播放暂停, 支持歌词显示, 详见[这里](https://github.com/dhjz/dmusic)
+
+
 # 使用介绍
 - alist加强音乐播放功能, 放大歌词显示, 支持上一曲下一曲和播放暂停, 也支持快捷键控制上下曲, alist music plugin, support prev, next, pause, enlarge the lyrics
 - 
