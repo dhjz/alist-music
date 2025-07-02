@@ -1,5 +1,6 @@
 <script>
   window.initMuscPlus = false;
+  window.initMuscEle = false;
   window.$q = window.$q || function(val) { return document.querySelector(val) }
   window.$qa = window.$qa || function(val) { return Array.from(document.querySelectorAll(val)) }
   ;(function(){
@@ -16,9 +17,21 @@
     document.body.appendChild(style)
   })();
 
-  setTimeout(() => {
+  let intIns = setInterval(() => {
+    console.log('setInterval initMuscEle...')
+    if (!window.initMuscEle) {
+      initData()
+    } else {
+      console.log('setInterval initMuscEle success...')
+      clearInterval(intIns)
+      intIns = null
+    }
+  }, 500)
 
+  function initData() {
     let stack = document.querySelector('.footer .hope-stack')
+    if (!stack) return;
+    window.initMuscEle = true;
     let span = document.createElement('span')
     span.innerHTML = '|'
     stack.appendChild(span)
@@ -38,7 +51,7 @@
         }
       }
     })
-  }, 1000)
+  }
 
   function changeMusic() {
     let lrcWarp = document.querySelector('.aplayer .aplayer-lrc')
